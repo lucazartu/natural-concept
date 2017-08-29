@@ -2,6 +2,14 @@
 
 Sistema de comércio eletrônico de produtos naturais de beleza.
 
+##Membros
+
+-Bárbara Cristina Lima - bclo
+-Carolina Carneiro Reis - ccrs
+-Lucas Artur de Queiroz - laqcs
+-João Ricardo dos Santos - jrs4
+
+
 ## Entregas
 
 ### Entrega 1 
