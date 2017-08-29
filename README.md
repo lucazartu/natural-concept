@@ -1,6 +1,6 @@
-# Amazon Beauty - Projeto e Análise de sistemas
+# Natural Concept E-Commerce - Projeto e Análise de sistemas
 
-Sistema de E-commerce com produtos naturais. 
+Sistema de comércio eletrônico de produtos naturais de beleza.
 
 ## Entregas
 
