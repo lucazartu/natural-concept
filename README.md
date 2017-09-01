@@ -13,8 +13,7 @@ Sistema de comércio eletrônico de produtos naturais de beleza.
 ## Entregas
 
 ### Entrega 1 
-- Descrição do projeto junto ao nome dos componentes da equipe com seus respectivos projetos.
-[Link do documento](https://docs.google.com/document/d/1o8QlwaRiYYteJZ2C-TPifjMUfF1pBBvXD1o_N9ivRBk/edit)
+- [Descrição do projeto junto ao nome dos componentes da equipe com seus respectivos projetos.](https://docs.google.com/document/d/1o8QlwaRiYYteJZ2C-TPifjMUfF1pBBvXD1o_N9ivRBk/edit)
 
 - [Diagrama de casos de uso](https://github.com/lucazartu/natural-concept/blob/master/entregas/Diagrama%20de%20casos%20de%20uso.pdf) 
 
