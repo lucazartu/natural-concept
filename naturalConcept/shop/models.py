@@ -8,8 +8,8 @@ class Category(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name = 'category'
-        verbose_name_plural = 'categories'
+        verbose_name = 'Categoria'
+        verbose_name_plural = 'Categorias'
 
     def __str__(self):
         return self.name
@@ -33,6 +33,8 @@ class Product(models.Model):
     class Meta:
         ordering = ('-created',)
         index_together = (('id', 'slug'),)
+        verbose_name = "Produto"
+        verbose_name_plural = "Produtos"
 
     def __str__(self):
         return self.name
