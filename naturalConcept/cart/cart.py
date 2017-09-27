@@ -2,7 +2,6 @@ from decimal import Decimal
 from django.conf import settings
 from shop.models import Product
 
-
 class Cart(object):
 
     def __init__(self, request):
@@ -37,7 +36,7 @@ class Cart(object):
             item['total_price'] = item['price'] * item['quantity']
             yield item
 
-    def add(self, product, quantity=1, update_quantity=False):
+    def adicionarProdutoCarrinho(self, product, quantity=1, update_quantity=False):
         """
         Add a product to the cart or update its quantity.
         """

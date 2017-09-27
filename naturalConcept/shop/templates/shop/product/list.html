@@ -12,14 +12,22 @@
             <li {% if not category %}class="selected"{% endif %}>
                 <a href="{% url "shop:product_list" %}">Todos</a>
             </li>
-        {% for c in categories %}
-            <li {% if category.slug == c.slug %}class="selected"{% endif %}>
-                <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-            </li>
-        {% endfor %}
+            {% for c in categories %}
+                <li {% if category.slug == c.slug %}class="selected"{% endif %}>
+                    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+                </li>
+            {% endfor %}
+
         </ul>
     </div>
     <div id="main" class="product-list">
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
         <h1>{% if category %}{{ category.name }}{% else %}Produtos{% endif %}</h1>
         {% for product in products %}
             <div class="item">
@@ -27,8 +35,14 @@
                     <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static "img/no_image.png" %}{% endif %}">
                 </a>
                 <a href="{{ product.get_absolute_url }}">{{ product.name }}</a><br>
-                ${{ product.price }}
+                R${{ product.price }}
             </div>
         {% endfor %}
+        <div class="item">
+            <a href="{% url 'shop:product_create' %}">
+                <img src="{% static "img/no_image.png" %}">
+            </a>
+            <a href="{% url 'shop:product_create' %}">Adicionar produto</a><br>
+        </div>
     </div>
 {% endblock %}
