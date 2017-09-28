@@ -24,4 +24,4 @@ Sistema de comércio eletrônico de produtos naturais de beleza.
 
 - [Diagramas](https://drive.google.com/drive/folders/0B6beWpCbO09DVHNTRVRYZGVGdFE?usp=sharing)
 
-- [Implementação](https://github.com/lucazartu/natural-concept/naturalConcept)
+- [Implementação](https://github.com/lucazartu/natural-concept/tree/master/naturalConcept)
