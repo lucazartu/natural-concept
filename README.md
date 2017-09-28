@@ -19,7 +19,7 @@ Sistema de comércio eletrônico de produtos naturais de beleza.
 
 - [Descrição de alguns casos de uso](https://docs.google.com/a/cin.ufpe.br/document/d/1OqsndZd63i1wxDbRp76tcSPIfdEOS__jjAHY896danY/edit?usp=sharing)
 
-### Entrega 2 - Projeto Completo
+### Entrega 2 - Arquitetura RUP
 - [Apresentação](https://github.com/lucazartu/natural-concept/blob/master/entregas/Apresentacao1.pdf)
 
 - [Diagramas](https://drive.google.com/drive/folders/0B6beWpCbO09DVHNTRVRYZGVGdFE?usp=sharing)
