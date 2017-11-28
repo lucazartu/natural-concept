@@ -19,10 +19,11 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey(Category, verbose_name="Categoria", related_name='products')
+    category = models.CharField("Category", max_length=200, db_index=True)
+    #category = models.ForeignKey(Category, verbose_name="Categoria", related_name='products')
     name = models.CharField("Nome", max_length=200, db_index=True)
     slug = models.SlugField("Slug", max_length=200, db_index=True)
-    image = models.ImageField("Imagem", upload_to='products/%Y/%m/%d', blank=True)
+    #image = models.ImageField("Imagem", upload_to='products/%Y/%m/%d', blank=True)
     description = models.TextField("Descrição", blank=True)
     price = models.DecimalField("Preço", max_digits=10, decimal_places=2)
     stock = models.PositiveIntegerField("Estoque")
